@@ -14,7 +14,7 @@ def get(array, index, default=None):
     if index < 0:
         return default
 
-    return array[index]
+    return index
 
 
 def my_slice(coll, start=0, end=None):
